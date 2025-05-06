@@ -28,8 +28,9 @@ we spike harder, dive deeper, and rise higher together.</p>
     <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-3xl tracking-tight font-semibold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
-            <p className="mb-4"> Discover the ultimate travel experience with [Your Website Name]! Whether you're looking for guided tours, local delicacies, or unique souvenirs, we have it all. Explore breathtaking destinations, enjoy exquisite cuisine, and shop for exclusive handcrafted treasures—all in one place. Your adventure starts here !</p>
-            <p>Wanderoc is your one-stop destination for unforgettable travel experiences. From expert-led tours and authentic local food to a curated selection of souvenirs, we bring the best of your favorite destinations to you. Plan, explore, and indulge—all with ease!</p>
+            <p className="mb-4"> We are a dedicated and passionate group of athletes who represent Club in local and regional volleyball competitions. United by teamwork, discipline, and a love for the game, our team strives for excellence both on and off the court.</p>
+            <p>🏅 Our Mission: To foster talent, promote sportsmanship, and build a community through the spirit of volleyball.</p>
+            <p className="mb-4 text-2xl tracking-tight text-gray-900 dark:text-white">Head Coach:<span className='text-blue-700 border-solid border-b-2'>   Azouz Houssam</span></p>
         </div>
         <div className="grid grid-cols-2 gap-4 mt-8">
             <img className="w-full rounded-lg" src={team}/>
@@ -45,7 +46,11 @@ we spike harder, dive deeper, and rise higher together.</p>
         <img src={jersey}
         width={400}
         />
-        <p className='mb-6 text-lg font-normal text-gray-700 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-800 mt-[50px]'>I' am a dedicated and versatile with a passion Junior Software developer for creating efficient and user-friendly web applications.  I have worked with a variety of technologies
+        <p className='mb-6 text-lg font-normal text-gray-700 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-800 mt-[50px]'>We're excited to unveil our VB team's brand-new jersey!
+Featuring a sleek modern design with breathable fabric,
+this jersey combines style and performance on the court.
+The team logo and colors stand out with pride and energy.
+Get ready to spike in style this season!
         </p>
       </div>
        </div>
@@ -57,9 +62,19 @@ we spike harder, dive deeper, and rise higher together.</p>
         />
         <img src={nat2}
         width={400}
-      className=' lg-ml-6 mt-4'/>
+      className=' lg:ml-6 mt-4'/>
       </div>
        </div>
+       <div className="mx-5 bg-blue-900 text-white lg:ml-125 flex-col gap-8 justify-between lg:w-180 items-center px-8 py-4 rounded-lg mt-20 md:flex-row md:gap-0 md:px- ">
+          <div>
+            <h1 className="text-3xl font-semibold">Get Ready !</h1>
+            <p className="text-base font-normal leading-7 text-zinc-400 lg:max-w-lg md:max-w-md my-2">
+            Our volleyball team page is almost here. Soon, you'll meet the players, explore our achievements, and follow us throughout the season. Stay tuned for updates, photos, and match highlights!
+            </p>
+          </div>
+
+       
+        </div>
            </div>
   )
 }
