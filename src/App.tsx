@@ -1,6 +1,6 @@
-import Navbar from "./Components/Navbar.jsx"
-import HeroSection from "./Components/HeroSection.jsx"
-import Footer from "./Components/Footer.jsx"
+import Navbar from "./Components/Navbar"
+import HeroSection from "./Components/HeroSection"
+import Footer from "./Components/Footer"
 import "./App.css"
 
 

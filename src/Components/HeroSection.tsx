@@ -1,4 +1,4 @@
-import React from 'react'
+
 import team from '../assets/team.jpg'
 import team2 from '../assets/team2.jpg'
 import jersey from '../assets/jersey.jpg'
@@ -11,12 +11,12 @@ const HeroSection = () => {
     <div>
         <div className='text-center mt-[120px] lg:mt-[200px]'>
             
-<h1 class="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">ASAA : Volleyball Team in Morocco</h1>
-<p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Fueled by passion and powered by teamwork,
+<h1 className="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">ASAA : Volleyball Team in Morocco</h1>
+<p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Fueled by passion and powered by teamwork,
 we spike harder, dive deeper, and rise higher together.</p>
-<a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+<a href="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
     Contact Us 
-    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
   </svg>
 </a>
@@ -24,16 +24,16 @@ we spike harder, dive deeper, and rise higher together.</p>
         </div>
         <div className='destination min-h-screen lg:mt-[150px] mt-[280px]'>
        <h1 className='text-center text-5xl'>About <span className='text-blue-700'>Us</span></h1>
-       <section class="bg-white dark:bg-gray-900">
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-3xl tracking-tight font-semibold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
-            <p class="mb-4"> Discover the ultimate travel experience with [Your Website Name]! Whether you're looking for guided tours, local delicacies, or unique souvenirs, we have it all. Explore breathtaking destinations, enjoy exquisite cuisine, and shop for exclusive handcrafted treasures—all in one place. Your adventure starts here !</p>
+       <section className="bg-white dark:bg-gray-900">
+    <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <h2 className="mb-4 text-3xl tracking-tight font-semibold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
+            <p className="mb-4"> Discover the ultimate travel experience with [Your Website Name]! Whether you're looking for guided tours, local delicacies, or unique souvenirs, we have it all. Explore breathtaking destinations, enjoy exquisite cuisine, and shop for exclusive handcrafted treasures—all in one place. Your adventure starts here !</p>
             <p>Wanderoc is your one-stop destination for unforgettable travel experiences. From expert-led tours and authentic local food to a curated selection of souvenirs, we bring the best of your favorite destinations to you. Plan, explore, and indulge—all with ease!</p>
         </div>
-        <div class="grid grid-cols-2 gap-4 mt-8">
-            <img class="w-full rounded-lg" src={team}/>
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src={team2}/>
+        <div className="grid grid-cols-2 gap-4 mt-8">
+            <img className="w-full rounded-lg" src={team}/>
+            <img className="mt-4 w-full lg:mt-10 rounded-lg" src={team2}/>
     </div>
     </div>
 </section>
